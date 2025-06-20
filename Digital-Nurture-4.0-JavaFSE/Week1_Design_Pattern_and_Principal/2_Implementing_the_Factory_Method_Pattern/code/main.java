@@ -20,19 +20,19 @@ interface Document {
 
 class WordDocument implements Document {
     public void open() {
-        System.out.println("Word doc opened");
+        System.out.println("Word doc is opened");
     }
 }
 
 class PdfDocument implements Document {
     public void open() {
-        System.out.println("PDF doc opened");
+        System.out.println("PDF doc is opened");
     }
 }
 
 class ExcelDocument implements Document {
     public void open() {
-        System.out.println("Excel doc opened");
+        System.out.println("Excel doc is opened");
     }
 }
 
